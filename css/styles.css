@@ -1,8 +1,71 @@
 :root {
-  --primary-black-color: #000000;
-  --secondary-black-color: #212121;
+  --primary-black-color: #212121;
+  --secondary-black-color: #000000;
   --secondary-color: #2196f3;
-  --primary-wwhite-color: #ffffff;
+  --primary-white-color: #ffffff;
   --secondary-white-color: rgb(255, 255, 255, 0.6);
   --grey-color: #757575;
+  --background-color: #f5f4fa;
+}
+/* Common styles */
+body ul {
+  list-style: none;
+}
+
+body a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* Хедер */
+
+/* Нав */
+.logo {
+  color: var(--secondary-black-color);
+  text-decoration: none;
+}
+
+.logo > span {
+  color: var(--secondary-color);
+}
+
+.navigation {
+  color: var(--primary-black-color);
+  text-decoration: none;
+}
+
+.navigation:hover,
+.navigation:focus {
+  color: var(--secondary-color);
+}
+
+.navigation-link {
+  color: var(--primary-black-color);
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+  color: var(--secondary-color);
+}
+
+.adress-link {
+  color: var(--grey-color);
+}
+
+.adress-link:hover,
+.adress-link:focus {
+  color: var(--secondary-color);
+}
+
+/* Main */
+
+.gallery-button {
+  color: var(--primary-black-color);
+  background-color: var(--background-color);
+}
+
+.gallery-button:hover,
+.gallery-button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--secondary-color);
 }
