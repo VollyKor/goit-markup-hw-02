@@ -6,8 +6,10 @@
   --secondary-white-color: rgb(255, 255, 255, 0.6);
   --grey-color: #757575;
   --background-color: #f5f4fa;
+  --secondary-background-color: #2f303a;
 }
 /* Common styles */
+
 body ul {
   list-style: none;
 }
@@ -17,47 +19,52 @@ body a {
   text-decoration: none;
 }
 
-/* Хедер */
+/* Portfolio.html */
 
-/* Нав */
-.logo {
+/* Header */
+
+/* Nav */
+
+.header-logo {
   color: var(--secondary-black-color);
   text-decoration: none;
 }
 
-.logo > span {
+.header-logo > span {
   color: var(--secondary-color);
 }
 
-.navigation {
+.nav {
   color: var(--primary-black-color);
   text-decoration: none;
 }
 
-.navigation:hover,
-.navigation:focus {
+.nav:hover,
+.nav:focus {
   color: var(--secondary-color);
 }
 
-.navigation-link {
+.nav-link {
   color: var(--primary-black-color);
 }
 
-.navigation-link:hover,
-.navigation-link:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: var(--secondary-color);
 }
 
-.adress-link {
+.header-address {
   color: var(--grey-color);
 }
 
-.adress-link:hover,
-.adress-link:focus {
+.header-address:hover,
+.header-address:focus {
   color: var(--secondary-color);
 }
 
 /* Main */
+
+/* Galleery buttons */
 
 .gallery-button {
   color: var(--primary-black-color);
@@ -68,4 +75,59 @@ body a {
 .gallery-button:focus {
   color: var(--primary-white-color);
   background-color: var(--secondary-color);
+}
+
+/* Gallery titles */
+
+.gallery-title {
+  color: var(--primary-black-color);
+}
+
+.gallery-desc {
+  color: var(--grey-color);
+}
+
+.gallery-features {
+  color: var(--primary-white-color);
+  background-color: var(--secondary-color);
+}
+
+/* Добавить всплывающий текст при событии :hover, :focus  */
+
+/* footer */
+.footer-background {
+  background-color: var(--secondary-background-color);
+}
+
+.footer-city {
+  color: var(--primary-white-color);
+}
+
+.footer-address {
+    color: var(--secondary-white-color);
+}
+
+.footer-city:hover,
+.footer-city:focus,
+.footer-address:hover,
+.footer-address:focus {
+    color: var(--secondary-color);
+}
+
+.footer-logo {
+color: var(--primary-white-color)
+} 
+
+.footer-logo > span {
+color: var(--secondary-color);
+}
+
+.footer-subtitle {
+color: var(--primary-white-color);
+text-transform: uppercase;
+}
+
+.sign-button {
+    color: var(--primary-white-color);
+    background-color: var(--secondary-color);
 }

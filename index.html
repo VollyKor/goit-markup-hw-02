@@ -10,29 +10,29 @@
   <body>
     <!-- Шапка -->
     <header>
-      <nav class="navigation">
-        <a href="" class="logo" aria-label="Логотип">
+      <nav class="nav">
+        <a href="./index.html" class="header-logo" aria-label="Логотип">
           <span>
             Web
           </span>
           Studio
         </a>
-        <ul>
+        <ul class="nav-list">
           <li>
-            <a href="./index.html">Студия</a>
+            <a class="nav-link" href="./index.html">Студия</a>
           </li>
           <li>
-            <a href="./portfolio.html">Портфолио</a>
+            <a class="nav-link" href="./portfolio.html">Портфолио</a>
           </li>
           <li>
-            <a href="">Контакты</a>
+            <a class="nav-link" href="">Контакты</a>
           </li>
         </ul>
       </nav>
       <address>
         <ul>
           <li>
-            <a href="mailto:info@devstudio.com">
+            <a class="header-address" href="mailto:info@devstudio.com">
               <img
                 src="./images/icon-mail.svg"
                 alt="icon mail"
@@ -43,7 +43,7 @@
             </a>
           </li>
           <li>
-            <a href="tel:+380961111111">
+            <a class="header-address" href="tel:+380961111111">
               <img
                 src="./images/icon-smartphone.svg"
                 alt="icon smartphone"
@@ -406,32 +406,41 @@
       </section>
     </main>
     <!-- футер -->
-    <footer>
+    <footer class="footer-background">
       <!-- контакты -->
-      <div>
-        <a href="" aria-label="Логотип Веб студии">
+      <div >
+        <a class="footer-logo" href="./index.html" aria-label="Логотип Веб студии">
           <span>Web</span>
           Studio
         </a>
         <address>
           <ul>
             <li>
-              <a href="https://goo.gl/maps/y2QhBPSRQjRxSZP76" target="_blank"
-                >г. Киев, пр-т Леси Украинки, 26
+              <a
+                class="footer-city"
+                href="https://goo.gl/maps/y2QhBPSRQjRxSZP76"
+                target="_blank"
+              >
+                г. Киев, пр-т Леси Украинки, 26
               </a>
             </li>
             <li>
-              <a href="mailto:info@example.com">info@example.com</a>
+              <a class="footer-address" href="mailto:info@example.com"
+                >info@example.com</a
+              >
             </li>
             <li>
-              <a href="tel:+380991111111">+38 099 111 11 11</a>
+              <a class="footer-address" href="tel:+380991111111"
+                >+38 099 111 11 11</a
+              >
             </li>
           </ul>
         </address>
       </div>
+      <!-- Соц. ссылки -->
       <div>
         <p>
-          <b>Присоединяйтесь</b>
+          <b class="footer-subtitle">Присоединяйтесь</b>
         </p>
         <ul>
           <li>
@@ -475,14 +484,17 @@
             </a>
           </li>
         </ul>
+
       </div>
+      <!-- Форма подпишись -->
       <div>
         <p>
-          <b>Подпишитесь на рассылку</b>
-          <!-- какаято форма,-->
-          <button>Подписаться</button>
+          <b class="footer-subtitle">Подпишитесь на рассылку</b>
+          <!-- какаято форма-->
+          <button class="sign-button" type="button">Подписаться</button>
         </p>
       </div>
+      <!-- Форму "Подписывайся" сказали не трогать" -->
     </footer>
   </body>
 </html>
