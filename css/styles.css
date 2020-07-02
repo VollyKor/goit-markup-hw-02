@@ -10,6 +10,10 @@
 }
 /* Common styles */
 
+body {
+  color: var(--grey-color);
+}
+
 body ul {
   list-style: none;
 }
@@ -64,7 +68,7 @@ body a {
 
 /* Main */
 
-/* Galleery buttons */
+/* Gallery buttons */
 
 .gallery-button {
   color: var(--primary-black-color);
@@ -130,4 +134,36 @@ text-transform: uppercase;
 .sign-button {
     color: var(--primary-white-color);
     background-color: var(--secondary-color);
+}
+
+/* index.html */
+
+.title-hero {
+  color: var(--primary-white-color);
+  background-color: black;
+
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.button-order {
+  color: var(--primary-white-color);
+  background-color: var(--secondary-color);
+}
+
+.section-title {
+color: var(--primary-black-color);
+}
+
+.features-subtitle {
+  color: var(--primary-black-color);
+}
+
+.features-link {
+  background-color: grey;
+  color: var(--primary-white-color);
+}
+
+.dev-name {
+color: var(--primary-black-color);
 }

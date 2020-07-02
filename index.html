@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/styles.css" />
-    <title>Домашняя работа 1</title>
+    <title>Домашняя работа 2</title>
   </head>
 
   <body>
@@ -56,22 +56,29 @@
         </ul>
       </address>
     </header>
+
     <!-- Мейн -->
     <main>
       <!-- Герой -->
       <section>
-        <h1>Эффективные решения для вашего бизнеса</h1>
-        <button>
+        <h1 class="title-hero">
+          Эффективные решения
+          <br>
+            для вашего бизнеса
+          </br>
+        </h1>
+        <button class="button-order" type="button">
           Заказать услугу
         </button>
       </section>
+
       <!-- Особенности -->
       <section>
-        <h2 hidden>Особенности</h2>
+        <h2 class="features-title" hidden>Особенности</h2>
         <ul>
           <li>
             <img src="./images/icon-antenna.svg" alt="Антена" />
-            <h3>Внимание к деталям</h3>
+            <h3 class="features-subtitle">Внимание к деталям</h3>
             <p>
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
@@ -79,7 +86,7 @@
           </li>
           <li>
             <img src="./images/icon-clock.svg" alt="Часы" />
-            <h3>Пунктуальность</h3>
+            <h3 class="features-subtitle">Пунктуальность</h3>
             <p>
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
@@ -87,7 +94,7 @@
           </li>
           <li>
             <img src="./images/icon-diagram.svg" alt="Диаграмма" />
-            <h3>Планирование</h3>
+            <h3 class="features-subtitle">Планирование</h3>
             <p>
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
@@ -95,7 +102,7 @@
           </li>
           <li>
             <img src="./images/icon-astronaut.svg" alt="Астронавт" />
-            <h3>Современные технологии</h3>
+            <h3 class="features-subtitle">Современные технологии</h3>
             <p>
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
@@ -103,13 +110,14 @@
           </li>
         </ul>
       </section>
+
       <!-- Чем мы занимаемся -->
       <section>
-        <h2>Чем мы занимаемся</h2>
+        <h2 class="work-title">Чем мы занимаемся</h2>
         <!-- как я понял, эти картинки, это ссылки на страницу порфолио с фильтром по категориям -->
         <ul>
           <li>
-            <a href="">
+            <a class="features-link" href="">
               <img
                 src="./images/desktop-applications.jpg"
                 alt="Десктопные приложения "
@@ -120,7 +128,7 @@
             </a>
           </li>
           <li>
-            <a href="">
+            <a class="features-link" href="">
               <img
                 src="./images/mobile-applications.jpg"
                 alt="Мобильные приложения"
@@ -131,7 +139,7 @@
             </a>
           </li>
           <li>
-            <a href="">
+            <a class="features-link" href="">
               <img
                 src="./images/design-solutions.jpg"
                 alt="Дизайнерские решения"
@@ -143,9 +151,10 @@
           </li>
         </ul>
       </section>
+
       <!-- Наша команда -->
       <section>
-        <h2>Наша команда</h2>
+        <h2 class="section-title">Наша команда</h2>
         <ul>
           <li>
             <img
@@ -154,7 +163,7 @@
               width="354"
               height="260"
             />
-            <h3>Николай Кучеренко</h3>
+            <h3 class="dev-name">Николай Кучеренко</h3>
             <p lang="eu">Product Designer</p>
             <ul>
               <li>
@@ -207,7 +216,7 @@
               width="354"
               height="260"
             />
-            <h3>Ольга Иванова</h3>
+            <h3 class="dev-name">Ольга Иванова</h3>
             <p lang="eu">Frontend Developer</p>
             <ul>
               <li>
@@ -260,7 +269,7 @@
               width="354"
               height="260"
             />
-            <h3>Андрей Шевченко</h3>
+            <h3 class="dev-name">Андрей Шевченко</h3>
             <p lang="eu">Marketing</p>
             <ul>
               <li>
@@ -313,7 +322,7 @@
               width="354"
               height="260"
             />
-            <h3>Иван Николаев</h3>
+            <h3 class="dev-name">Иван Николаев</h3>
             <p lang="eu">UI Designer</p>
             <ul>
               <li>
@@ -361,8 +370,9 @@
         </ul>
       </section>
       <!-- Постоянные клиенты -->
+      
       <section>
-        <h2>Постоянные клиенты</h2>
+        <h2 class="section-title">Постоянные клиенты</h2>
         <ul>
           <li>
             <img
@@ -373,7 +383,12 @@
             />
           </li>
           <li>
-            <img src="./images/logo-2.svg" alt="рамки" width="40" height="52" />
+            <img 
+              src="./images/logo-2.svg" 
+              alt="рамки" 
+              width="40" 
+              height="52" 
+            />
           </li>
           <li>
             <img
@@ -392,7 +407,12 @@
             />
           </li>
           <li>
-            <img src="./images/logo-5.svg" alt="Лист" width="59" height="47" />
+            <img 
+              src="./images/logo-5.svg" 
+              alt="Лист" 
+              width="59" 
+              height="47" 
+            />
           </li>
           <li>
             <img
@@ -409,8 +429,12 @@
     <!-- клас футера сменить при стилизации блока -->
     <footer class="footer-background">
       <!-- контакты -->
-      <div >
-        <a class="footer-logo" href="./index.html" aria-label="Логотип Веб студии">
+      <div>
+        <a
+          class="footer-logo"
+          href="./index.html"
+          aria-label="Логотип Веб студии"
+        >
           <span>Web</span>
           Studio
         </a>
@@ -485,7 +509,6 @@
             </a>
           </li>
         </ul>
-
       </div>
       <!-- Форма подпишись -->
       <div>
